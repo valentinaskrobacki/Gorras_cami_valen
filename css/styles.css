@@ -420,9 +420,12 @@ html {
         bottom: 30px;
         left: 20px;
     }
-
-
 }
 
-
-
+@media (max-width: 360px) {
+    
+    .parallax {
+        background-image: url('/img/portada.jpg');
+        height:  100vh;
+    }
+}
