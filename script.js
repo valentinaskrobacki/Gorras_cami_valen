@@ -18,3 +18,17 @@ document.addEventListener("DOMContentLoaded", function() {
          });
      });
 });
+
+
+window.addEventListener('scroll', function() {
+    const scrolled = window.pageYOffset;
+    const parallax = document.querySelector('.parallax');
+    
+    // Si deseas aplicar el efecto solo en dispositivos más grandes
+    if (window.innerWidth > 768) {
+        parallax.style.backgroundPositionY = (scrolled * 0.5) + 'px'; // Ajusta el multiplicador para el efecto
+    } else {
+        parallax.style.backgroundPositionY = 'center'; // Para dispositivos más pequeños, mantener la imagen centrada
+    }
+});
+
