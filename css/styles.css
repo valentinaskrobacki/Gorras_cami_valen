@@ -380,6 +380,11 @@ html {
         font-size: 1.3rem;
     }
 
+    .parallax {
+        background-attachment: scroll;
+        background-size: cover;
+    }
+
     .portada-text {
         flex-basis: 50%;
         text-align: left;
