@@ -28,7 +28,7 @@ window.addEventListener('scroll', function() {
     if (window.innerWidth > 768) {
         parallax.style.backgroundPositionY = (scrolled * 0.5) + 'px';
     } else {
-        parallax.style.backgroundPositionY = (scrolled * 0.2) + 'px';
+        parallax.style.backgroundPositionY = (scrolled * 0.3) + 'px';
     }
 });
 

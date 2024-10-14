@@ -427,5 +427,8 @@ html {
     .parallax {
         background-image: url('/img/portada.jpg');
         height:  100vh;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
     }
 }
