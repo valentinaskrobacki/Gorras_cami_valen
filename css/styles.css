@@ -383,6 +383,7 @@ html {
     .parallax {
         background-image: url('/img/portada.jpg');
         height:  100vh;
+        background-size: cover;
     }
 
     .portada-text {

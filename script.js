@@ -13,8 +13,8 @@ document.addEventListener("DOMContentLoaded", function() {
      navLinks.forEach(link => {
          link.addEventListener('click', function() {
              // Ocultar el menú
-             menuToggle.classList.remove('active'); // Esto cerrará el menú
-             mainNav.querySelector('ul').classList.remove('active'); // Esto también cerrará el menú
+             menuToggle.classList.remove('active'); 
+             mainNav.querySelector('ul').classList.remove('active'); 
          });
      });
 });
