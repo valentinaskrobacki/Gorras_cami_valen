@@ -19,3 +19,10 @@ document.addEventListener("DOMContentLoaded", function() {
      });
 });
 
+window.addEventListener('scroll', function() {
+    const scrolled = window.pageYOffset;
+    const parallax = document.querySelector('.parallax');
+    parallax.style.backgroundPositionY = (scrolled * 0.5) + 'px'; 
+});
+
+

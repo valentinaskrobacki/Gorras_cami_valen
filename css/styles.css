@@ -381,8 +381,8 @@ html {
     }
 
     .parallax {
-        background-attachment: scroll;
-        background-size: cover;
+        background-image: url('/img/portada.jpg');
+        height:  100vh;
     }
 
     .portada-text {
