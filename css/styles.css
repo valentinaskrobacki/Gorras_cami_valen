@@ -381,7 +381,7 @@ html {
     }
 
     .parallax {
-        background-image: url('/img/portada.webp');
+        background-image: url('/img/portada2.jpg');
         height:  100vh;
     }
 
@@ -425,7 +425,7 @@ html {
 @media (max-width: 360px) {
     
     .parallax {
-        background-image: url('/img/portada.webp');
+        background-image: url('/img/portada2.jpg');
         height:  100vh;
         background-size: cover;
         background-position: center;
