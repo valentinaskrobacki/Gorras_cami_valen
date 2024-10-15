@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Bebas Neue', sans-serif;
-    background-color: #240046;
+    background-color: #eed9fa;
     color: #333;
     margin: 0;
     padding: 0;
@@ -124,10 +124,12 @@ html {
     text-align: left;
     color: #e0aaff;
     overflow: hidden;
+    z-index: 1;
+    background: linear-gradient(200deg, #240046, #e0aaff);
 }
 
 .parallax {
-    background-image: url('/img/portada2.jpg'); 
+    transform: translateZ(0);
     background-size: cover;
     background-attachment: fixed; 
     background-repeat: no-repeat;
@@ -381,7 +383,6 @@ html {
     }
 
     .parallax {
-        background-image: url('/img/portada2.jpg');
         height:  100vh;
     }
 
@@ -425,7 +426,6 @@ html {
 @media (max-width: 360px) {
     
     .parallax {
-        background-image: url('/img/portada2.jpg');
         height:  100vh;
         background-size: cover;
         background-position: center;
